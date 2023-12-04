@@ -65,4 +65,5 @@ if __name__ == "__main__":
 
     data = pd.DataFrame({'Name': ['E', 'F', 'G', 'H'],
                          'Age': [100, 70, 40, 60]})
+    
     append_df_to_excel('demo.xlsx', data)

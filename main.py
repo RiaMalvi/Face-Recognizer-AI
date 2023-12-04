@@ -87,8 +87,11 @@ data = {'Name': name_col, 'Roll No.': roll_no_col, 'Time': time_col}
 
 curr_time = time.localtime()
 curr_clock = time.strftime("%c", curr_time)
-log_file_name = "attendance_record " + curr_clock + ".xlsx"
+# log_file_name = "demo " + curr_clock + ".xlsx"
 
+# append_df_to_excel(log_file_name, data)
+
+log_file_name = 'D:\\ai\\Face Recognizer AI\\Face Recognizer\\demo.xlsx'
 append_df_to_excel(log_file_name, data)
 
 video_capture.release()
